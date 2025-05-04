@@ -13,7 +13,7 @@ def get_apikey():
     """
 
     # Construct the full path to the configuration file
-    script_dir = "/usercode/"
+    script_dir = "./config/"
     file_path = os.path.join(script_dir, "apikeys.yml")
 
     # read api key

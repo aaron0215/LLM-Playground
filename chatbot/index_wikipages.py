@@ -6,7 +6,6 @@ import openai
 from pydantic import BaseModel
 from utils import get_apikey
 
-
 # define the data model in pydantic
 class WikiPageList(BaseModel):
     "Data model for WikiPageList"
